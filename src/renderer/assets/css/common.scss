@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+}
+body {
+    overflow: hidden;
+}
+//-----row-------
+.flex-row-l-t{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flex-row-l-m {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-row-l-b{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.flex-row-l-s{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+//-----row-------
+.flex-row-c-t{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-row-c-m{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+flex-row-c-b{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flex-row-c-s{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+//-----row-------
+.flex-row-r-t{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.flex-row-r-m{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-row-r-b{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.flex-row-r-s{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+//-----row-------
+.flex-row-lr-t{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex-row-lr-m{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-row-lr-b{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flex-row-lr-s{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+//-----column-------
+.flex-column-l-t{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex-column-l-m{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-column-l-b{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.flex-column-l-s{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+//-----column-------
+.flex-column-c-t{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-column-c-m{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-c-b{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flex-column-c-s{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+//-----column-------
+.flex-column-r-t{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.flex-column-r-m{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-column-r-b{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.flex-column-r-s{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+//-----column-------
+.flex-column-lr-t{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex-column-lr-m{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-column-lr-b{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flex-column-lr-s{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.shadow {
+    // box-shadow: 0 36px 64px 0 rgba(0, 0, 0, .05);
+    // box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    box-shadow: 1px 3px 10px rgba(0,0,0,0.1);
+}
+#app {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
